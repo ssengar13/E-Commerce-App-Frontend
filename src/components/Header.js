@@ -15,7 +15,7 @@ const Header = () => {
                             <p className='text-white mb-0'>
                                 Hotline:
                                 <a href='tel: +919876543210' className='text-white'>
-                                    (888) 4344 6000 - (888) 1338 8193
+                                    &nbsp;(888) 4344 6000 - (888) 1338 8193
                                 </a>
                             </p>
 
@@ -61,7 +61,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className='col-5'>
-                            <div className='header-upper-links d-flex align-items-center justify-content-between gap-20'>
+                            <div className='header-upper-links d-flex align-items-center justify-content-between'>
                                 <div>
                                     <Link className='d-flex align-items-center gap-10 text-white' >
                                         <img src='images/compare.svg' alt='compare' />
