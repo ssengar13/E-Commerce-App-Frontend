@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { BsSearch, bsSearch } from 'react-icons/bs'
+import { BsSearch } from 'react-icons/bs'
 
 const Header = () => {
     return (

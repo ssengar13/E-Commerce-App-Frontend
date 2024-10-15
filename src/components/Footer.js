@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { BsLinkedin, BsYoutube, BsInstagram, BsGithub, BsFacebook } from 'react-icons/bs'
 
 const Footer = () => {
@@ -37,21 +37,21 @@ const Footer = () => {
                                 <a href='tel:+919876543210' className='mt-3 d-block mb-1 text-white'>+91 98765 43210</a>
                                 <a href='mailto:sengarsonal13@gmail.com' className='mt-2 d-block mb-0 text-white'>sengarsonal13@gmail.com</a>
                                 <div className="social-icons d-flex align-items-center gap-15 mt-4">
-                                    <a href='' className='icon-circle'>
+                                    <Link to='#' className='icon-circle'>
                                         <BsFacebook className='text-white fs-4' />
-                                    </a>
-                                    <a href='' className='icon-circle'>
+                                    </Link>
+                                    <Link to='#' className='icon-circle'>
                                         <BsGithub className='text-white fs-4' />
-                                    </a>
-                                    <a href='' className='icon-circle'>
+                                    </Link>
+                                    <Link to='#' className='icon-circle'>
                                         <BsInstagram className='text-white fs-4' />
-                                    </a>
-                                    <a href='' className='icon-circle'>
+                                    </Link>
+                                    <Link to='#' className='icon-circle'>
                                         <BsYoutube className='text-white fs-4' />
-                                    </a>
-                                    <a href='' className='icon-circle'>
+                                    </Link>
+                                    <Link to='#' className='icon-circle'>
                                         <BsLinkedin className='text-white fs-4' />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
