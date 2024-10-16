@@ -475,3 +475,173 @@ footer .input-group-text {
 
 /* famous card end */
 /* Home Page End */
+
+/* Our Store Page CSS Start */
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 15px 25px;
+}
+
+.filter-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: .8px;
+  text-transform: capitalize;
+  color: var(--color-1c1b1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-check-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.filter-card .form-check-input:checked {
+  background-color: var(--color-fedb69);
+  border-color: var(--color-fedb69);
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1b1b);
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.bg-white {
+  border: 1px solid var(--color-ededed);
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.bg-silver {
+  background-color: silver;
+}
+
+.bg-green {
+  background-color: rgb(140, 255, 0);
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-cyan {
+  background-color: cyan;
+}
+
+.bg-magenta {
+  background-color: magenta;
+}
+
+.bg-amber {
+  background-color: #e5ff00;
+}
+
+.bg-maroon {
+  background-color: maroon;
+}
+
+.bg-peach {
+  background-color: #FFDAB9;
+}
+
+.bg-RebeccaPurple {
+  background-color: rebeccapurple;
+}
+
+.bg-Olive {
+  background-color: olive;
+}
+
+.bg-Wheat {
+  background-color: rgb(164, 115, 22);
+}
+
+.bg-DeepPink {
+  background-color: deeppink;
+}
+
+.text-color {
+  color: #9a9797;
+  font-weight: 400;
+}
+
+.random-products h5 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.random-products:first-child {
+  border-bottom: 1px solid var(--color-ededed);
+}
+
+.filter-sort-grid {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sort-by-text {
+  white-space: nowrap;
+  color: var(--color-3b4149);
+}
+
+.filter-sort-grid select {
+  background-color: #f5f5f5;
+  border: none;
+  color: #777777;
+}
+
+.grid img {
+  height: 30px;
+  width: 30px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Our Store Page CSS End */
