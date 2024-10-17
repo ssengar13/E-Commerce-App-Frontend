@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import ReactStars from 'react-rating-stars-component'
+import ProductCard from '../components/ProductCard'
+
 
 const OurStore = () => {
     const [grid, setGrid] = useState(4);
@@ -203,7 +205,9 @@ const OurStore = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="product-list pb-5 "></div>
+                            <div className="product-list pb-5 ">
+                                <ProductCard grid={grid} />
+                            </div>
                         </div>
                     </div>
                 </div>
