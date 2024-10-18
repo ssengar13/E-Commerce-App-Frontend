@@ -205,9 +205,6 @@ const Home = () => {
                             </h3>
                         </div>
                         <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
                     </div>
                 </div>
             </section>
@@ -284,9 +281,6 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <ProductCard />
-                        <ProductCard />
-                        <ProductCard />
                         <ProductCard />
                     </div>
                 </div>

@@ -7,7 +7,6 @@ import ProductCard from '../components/ProductCard'
 
 const OurStore = () => {
     const [grid, setGrid] = useState(4);
-    alert(grid);
     return (
         <>
             <Meta title="Our Store" />
@@ -197,16 +196,18 @@ const OurStore = () => {
                                     <div className='d-flex align-items-center gap-10'>
                                         <p className="total-products mb-0">21 Products</p>
                                         <div className='d-flex aling-items-center gap-10 grid'>
-                                            <img onClick={() => { setGrid(4); }} src="images/gr4.svg" alt="grid" className='d-flex img-fluid' />
-                                            <img onClick={() => { setGrid(3); }} src="images/gr3.svg" alt="grid" className='d-flex img-fluid' />
-                                            <img onClick={() => { setGrid(2); }} src="images/gr2.svg" alt="grid" className='d-flex img-fluid' />
-                                            <img onClick={() => { setGrid(1); }} src="images/gr.svg" alt="grid" className='d-flex img-fluid' />
+                                            <img onClick={() => { setGrid(3); }} src="images/gr4.svg" alt="grid" className='d-flex img-fluid' />
+                                            <img onClick={() => { setGrid(4); }} src="images/gr3.svg" alt="grid" className='d-flex img-fluid' />
+                                            <img onClick={() => { setGrid(6); }} src="images/gr2.svg" alt="grid" className='d-flex img-fluid' />
+                                            <img onClick={() => { setGrid(12); }} src="images/gr.svg" alt="grid" className='d-flex img-fluid' />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="product-list pb-5 ">
-                                <ProductCard grid={grid} />
+                                <div className="d-flex gap-10 flex-wrap">
+                                    <ProductCard grid={grid} />
+                                </div>
                             </div>
                         </div>
                     </div>
