@@ -708,3 +708,47 @@ footer .input-group-text {
 }
 
 /* Our Store Page CSS End */
+
+/* Contact Page CSS Start */
+.contact-inner-wrapper {
+  padding: 30px 20px;
+  border-radius: 15px;
+  gap: 15px;
+  background-color: white;
+}
+
+.contact-inner-wrapper>div {
+  width: 48%;
+}
+
+.contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.contact-inner-wrapper form .form-control {
+  background-color: #f7f7f7;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.contact-inner-wrapper form input::placeholder,
+.contact-inner-wrapper form textarea::placeholder {
+  color: #acacac;
+}
+
+.contact-inner-wrapper ul {
+  list-style-type: none;
+}
+
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapper a,
+.contact-inner-wrapper p {
+  color: var(--color-777777);
+}
+
+/* Contact Page CSS End */

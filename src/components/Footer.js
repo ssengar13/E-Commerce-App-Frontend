@@ -30,7 +30,7 @@ const Footer = () => {
                             <h4 className='mb-4 text-white'>Contact Us</h4>
                             <div>
                                 <address className='text-white fs-6'>
-                                    Flat No. 201, Landmark Residency, <br />
+                                    Landmark Residency, <br />
                                     Lane No.2 Veerbhadra Nagar, <br />
                                     Baner, Pune 411045
                                 </address>
@@ -71,7 +71,7 @@ const Footer = () => {
                                 <Link className='text-white py-2 mb-1'>Search</Link>
                                 <Link className='text-white py-2 mb-1'>About Us</Link>
                                 <Link className='text-white py-2 mb-1'>Faq</Link>
-                                <Link className='text-white py-2 mb-1'>Contact</Link>
+                                <Link className='text-white py-2 mb-1' to="/contact">Contact</Link>
                                 <Link className='text-white py-2 mb-1'>Size Chart</Link>
                             </div>
                         </div>
