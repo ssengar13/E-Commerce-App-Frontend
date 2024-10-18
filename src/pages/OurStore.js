@@ -9,7 +9,7 @@ const OurStore = () => {
     const [grid, setGrid] = useState(4);
     return (
         <>
-            <Meta title="Our Store" />
+            <Meta title="Shop the Latest Trends at Amazify" />
             <BreadCrumb title="Our Store" />
             <div className="store-wrapper py-5 home-wrapper-2">
                 <div className="container-xxl">
