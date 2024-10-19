@@ -752,3 +752,22 @@ footer .input-group-text {
 }
 
 /* Contact Page CSS End */
+
+/* Compare Product Page CSS Start */
+.compare-product-card {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.compare-product-card .cross {
+  width: 25px;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.compare-product-details h5 {}
+
+/* Compare Product Page CSS End */
