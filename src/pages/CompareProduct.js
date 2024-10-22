@@ -1,8 +1,6 @@
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
-import { Link } from 'react-router-dom'
-import ReactStars from 'react-rating-stars-component'
 import Color from '../components/Color'
 
 const CompareProduct = () => {
@@ -21,7 +19,7 @@ const CompareProduct = () => {
                                 </div>
                             </div>
                             <div className="compare-product-details">
-                                <h5 className="title">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
+                                <h5 className="title mt-2">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
                                 <h6 className="price mb-2 mt-3">$99.00</h6>
                                 <div>
                                     <div className='product-detail'>
@@ -60,7 +58,7 @@ const CompareProduct = () => {
                                 </div>
                             </div>
                             <div className="compare-product-details">
-                                <h5 className="title">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
+                                <h5 className="title mt-2">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
                                 <h6 className="price mb-2 mt-3">$99.00</h6>
                                 <div>
                                     <div className='product-detail'>
@@ -99,7 +97,7 @@ const CompareProduct = () => {
                                 </div>
                             </div>
                             <div className="compare-product-details">
-                                <h5 className="title">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
+                                <h5 className="title mt-2">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
                                 <h6 className="price mb-2 mt-3">$99.00</h6>
                                 <div>
                                     <div className='product-detail'>
@@ -138,7 +136,7 @@ const CompareProduct = () => {
                                 </div>
                             </div>
                             <div className="compare-product-details">
-                                <h5 className="title">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
+                                <h5 className="title mt-2">Milanese Loop Watch Band For 42/44mm Apple Watch</h5>
                                 <h6 className="price mb-2 mt-3">$99.00</h6>
                                 <div>
                                     <div className='product-detail'>

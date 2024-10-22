@@ -755,29 +755,32 @@ footer .input-group-text {
 /* Contact Page CSS End */
 
 /* Compare Product Page CSS Start */
-.compare-product-card {
+.compare-product-card,
+.wishlist-card {
   padding: 10px 5px;
   background-color: white;
   /* border-radius: 10px; */
 }
 
-.compare-product-card .cross {
-  width: 25px;
+.compare-product-card .cross,
+.wishlist-card .cross {
+  width: 20px;
   top: 15px;
   right: 15px;
   cursor: pointer;
   padding: 3px;
 }
 
-.compare-product-details h5.title {
+.compare-product-details h5.title,
+.wishlist-details h5.title {
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
-  margin-top: 5px;
   color: var(--color-1c1b1b);
 }
 
-.compare-product-details h6.price {
+.compare-product-details h6.price,
+.wishlist-details h5.price {
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
