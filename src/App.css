@@ -804,3 +804,51 @@ footer .input-group-text {
 }
 
 /* Compare Product Page CSS End */
+
+
+/* Auth Card CSS Start */
+
+.auth-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.auth-card .form-control {
+  height: 50px;
+  background-color: #f7f7f7;
+  color: var(--color-131921);
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.auth-card form input::placeholder {
+  color: #acacac;
+}
+
+.auth-card a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-3b4149);
+}
+
+.auth-card .signup {
+  background-color: var(--color-fedb69);
+  color: var(--color-131921);
+}
+
+.auth-card .signup:hover {
+  background-color: var(--color-232f3e);
+  color: white;
+}
+
+/* Auth Card CSS End */
