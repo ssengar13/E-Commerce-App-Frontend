@@ -756,9 +756,9 @@ footer .input-group-text {
 
 /* Compare Product Page CSS Start */
 .compare-product-card {
-  padding: 20px 15px;
+  padding: 10px 5px;
   background-color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .compare-product-card .cross {
@@ -773,13 +773,14 @@ footer .input-group-text {
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
+  margin-top: 5px;
   color: var(--color-1c1b1b);
 }
 
 .compare-product-details h6.price {
   font-size: 15px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .compare-product-details .product-detail {
@@ -787,7 +788,16 @@ footer .input-group-text {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0px;
-  border-top: 1px solid var(--color-c2c1c1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.product-detail h5 {
+  font-size: 15px;
+}
+
+.product-detail p {
+  font-size: 13px;
+  color: var(--color-777777);
 }
 
 /* Compare Product Page CSS End */
