@@ -7,7 +7,7 @@ const Forgotpassword = () => {
     return (
         <>
             <Meta title="Reset Your Password - Secure Recovery | Amazify" />
-            <BreadCrumb title="Forgot Password" />
+            <BreadCrumb title="Reset Your Password" />
             <div className="login-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-12">
@@ -20,7 +20,7 @@ const Forgotpassword = () => {
                                 </div>
                                 <div>
                                     <div className='mt-3 d-flex justify-content-center flex-column gap-15 align-items-center'>
-                                        <button className='button border-0'>Submit</button>
+                                        <button className='button border-0' type='submit'>Submit</button>
                                         <Link to='/login'>Cancle</Link>
                                     </div>
                                 </div>
