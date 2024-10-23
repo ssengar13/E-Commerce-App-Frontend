@@ -7,7 +7,7 @@ const Login = () => {
     return (
         <>
             <Meta title="Login to Your Account - Secure Access | Amazify" />
-            <BreadCrumb title="Compare Products" />
+            <BreadCrumb title="Login" />
             <div className="login-wrapper home-wrapper-2 py-5">
                 <div className="row">
                     <div className="col-12">

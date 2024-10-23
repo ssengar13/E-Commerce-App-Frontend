@@ -822,13 +822,19 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 
+.auth-card p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-777777);
+}
+
 .auth-card .form-control {
   height: 50px;
   background-color: #f7f7f7;
   color: var(--color-131921);
   border: none;
   font-size: 14px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .auth-card form input::placeholder {
