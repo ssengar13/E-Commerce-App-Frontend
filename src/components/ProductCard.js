@@ -7,7 +7,7 @@ const ProductCard = ({ grid }) => {
     return (
         <>
             <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link className="product-card position-relative">
+                <Link to='/product-detail' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.svg" alt="wishlist" /></Link>
                     </div>
@@ -24,6 +24,7 @@ const ProductCard = ({ grid }) => {
                             value="3"
                             edit={false}
                             activeColor="#ffd700"
+                            color="#acacac"
                         />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
@@ -40,7 +41,7 @@ const ProductCard = ({ grid }) => {
                 </Link>
             </div>
             <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link className="product-card position-relative">
+                <Link to='/product-detail' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.svg" alt="wishlist" /></Link>
                     </div>
@@ -57,6 +58,7 @@ const ProductCard = ({ grid }) => {
                             value="3"
                             edit={false}
                             activeColor="#ffd700"
+                            color="#acacac"
                         />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
@@ -73,7 +75,7 @@ const ProductCard = ({ grid }) => {
                 </Link>
             </div>
             <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link className="product-card position-relative">
+                <Link to='/product-detail' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.svg" alt="wishlist" /></Link>
                     </div>
@@ -90,6 +92,7 @@ const ProductCard = ({ grid }) => {
                             value="3"
                             edit={false}
                             activeColor="#ffd700"
+                            color="#acacac"
                         />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
@@ -106,7 +109,7 @@ const ProductCard = ({ grid }) => {
                 </Link>
             </div>
             <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link className="product-card position-relative">
+                <Link to='/product-detail' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.svg" alt="wishlist" /></Link>
                     </div>
@@ -123,6 +126,7 @@ const ProductCard = ({ grid }) => {
                             value="3"
                             edit={false}
                             activeColor="#ffd700"
+                            color="#acacac"
                         />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
