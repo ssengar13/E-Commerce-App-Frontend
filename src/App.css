@@ -875,3 +875,12 @@ footer .input-group-text {
 }
 
 /* Auth Card CSS End */
+
+
+/* Policy Section Start */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Policy Section End */
