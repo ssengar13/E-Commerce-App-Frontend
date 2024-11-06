@@ -4,6 +4,8 @@ import Meta from '../components/Meta'
 import ProductCard from '../components/ProductCard'
 import ReactStars from 'react-rating-stars-component'
 import ReactImageZoom from 'react-image-zoom';
+import Color from '../components/Color'
+import { Link } from 'react-router-dom'
 
 
 const SingleProduct = () => {
@@ -13,7 +15,7 @@ const SingleProduct = () => {
         <>
             <Meta title="Product Details | Amazify" />
             <BreadCrumb title="Product Details" />
-            <div className="main-product-wrapper py-5 home-wrapper-2">
+            <div className="main-product-wrapper py-4 home-wrapper-2">
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-6 p-0">
@@ -53,16 +55,61 @@ const SingleProduct = () => {
                                             activeColor="#ffd700"
                                             color="#acacac"
                                         />
-                                        <p className='mb-0'>(2 Reviews)</p>
+                                        <p className='mb-0 review-button'>(2 Reviews)</p>
                                     </div>
                                     <a href="#review" className='review-button'>Write a Review</a>
+                                </div>
+                                <div className="border-bottom py-3">
+                                    <div className='d-flex gap-10 align-items-center'>
+                                        <h3 className='product-heading my-2'>Type :</h3>
+                                        <p className='mb-0 product-data mt-1'>Watch</p>
+                                    </div>
+                                    <div className='d-flex gap-10 align-items-center'>
+                                        <h3 className='product-heading my-2'>Brand :</h3>
+                                        <p className='mb-0 product-data'>Kenneth Cole</p>
+                                    </div>
+                                    <div className='gap-30 mb-2'>
+                                        <h3 className='product-heading my-2'>Categories :</h3>
+                                        <p className='mb-0 product-data'>Airpods, amera, Laptop & Computers, Headphones, Portable Speakers, Smart Phones, Smart Watches, Smart Televison</p>
+                                    </div>
+                                    <div className='d-flex gap-10 align-items-center'>
+                                        <h3 className='product-heading my-2'>Tags :</h3>
+                                        <p className='mb-0 product-data mt-1'>watches &nbsp;&nbsp; mobiles&nbsp;&nbsp;  kenneth cole  &nbsp;&nbsp; mobile</p>
+                                    </div>
+                                    <div className='d-flex gap-10 align-items-center'>
+                                        <h3 className='product-heading my-2'>Availablity :</h3>
+                                        <p className='mb-0 product-data'>In Stock</p>
+                                    </div>
+                                    <div className='d-flex flex-column mb-3 mt-2'>
+                                        <h3 className='product-heading'>Size :</h3>
+                                        <div className="d-flex flex-wrap gap-15">
+                                            <span className="badge border border-1 bg-white text-dark border-secondary px-2">S</span>
+                                            <span className="badge border border-1 bg-white text-dark border-secondary px-2">M</span>
+                                            <span className="badge border border-1 bg-white text-dark border-secondary px-2">L</span>
+                                            <span className="badge border border-1 bg-white text-dark border-secondary px-2">XL</span>
+                                        </div>
+                                    </div>
+                                    <div className='d-flex  flex-column mt-2 mb-2'>
+                                        <h3 className='product-heading'>Color :</h3>
+                                        <Color />
+                                    </div>
+                                    <div className='d-flex gap-10 flex-row mt-1 mb-3'>
+                                        <h3 className='product-heading'>Quantity :</h3>
+                                        <div className=''>
+                                            <input type="number" className='form-control' name="" style={{ "width": "70px" }} min={1} max={10} id="" placeholder='0' />
+                                        </div>
+                                        <div className='d-flex justify-content-center gap-15 align-items-center'>
+                                            <button className='button border-0'>Login</button>
+                                            <button className='button signup' to='/signup'>SignUp</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <section className="description-wrapper home-wrapper-2 py-5">
+            </div >
+            <section className="description-wrapper home-wrapper-2 py-4">
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
@@ -77,7 +124,7 @@ const SingleProduct = () => {
                     </div>
                 </div>
             </section>
-            <section className="review-wrapper py-5 home-wrapper-2">
+            <section className="review-wrapper py-4 home-wrapper-2">
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
