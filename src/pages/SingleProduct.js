@@ -5,6 +5,7 @@ import ProductCard from '../components/ProductCard'
 import ReactStars from 'react-rating-stars-component'
 import ReactImageZoom from 'react-image-zoom';
 import Color from '../components/Color'
+import {Link} from 'react-router-dom'
 
 const SingleProduct = () => {
     const props = { width: 400, height: 500, zoomWidth: 500, img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" };
