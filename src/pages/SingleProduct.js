@@ -11,7 +11,7 @@ import { BsLink45Deg } from "react-icons/bs";
 
 const SingleProduct = () => {
     const props = { width: 400, height: 500, zoomWidth: 600, img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" };
-    const [orderedProduct, setorderedProduct] = useState(true);
+    const [orderedProduct] = useState(true);
     return (
         <>
             <Meta title="Product Details | Amazify" />
