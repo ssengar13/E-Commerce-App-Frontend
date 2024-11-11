@@ -1077,4 +1077,33 @@ footer .input-group-text {
   width: 100%;
 }
 
+.cart-header h4 {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.cart-data h5.title,
+.cart-data p {
+  font-size: 15px;
+  color: var(--color-777777);
+  font-weight: 400;
+
+}
+
+.cart-data h5.price {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-131921);
+}
+
+.subtotal h4 {
+  font-size: 24px;
+  color: var(--color-777777);
+}
+
+.subtotal p {
+  font-size: 15px;
+  color: var(--color-777777);
+}
+
 /* Main Product Page CSS End */
