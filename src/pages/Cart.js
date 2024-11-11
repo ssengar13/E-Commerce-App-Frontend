@@ -52,7 +52,7 @@ const Cart = () => {
                                 <div className='d-flex flex-column align-items-end subtotal'>
                                     <h4>Sub Total: $ 100.00</h4>
                                     <p>Taxes and shipping calculated at checkout</p>
-                                    <Link to='/checkout' className='button'>Checkout</Link>
+                                    <Link to='/checkout' className='button'>CheckOut</Link>
                                 </div>
                             </div>
                         </div>
