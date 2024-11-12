@@ -15,8 +15,8 @@ const checkout = () => {
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><Link to="/cart" className='text-secondary'>Cart</Link></li>
                                         <li className="breadcrumb-item active" aria-current="page">Information</li>
-                                        <li className="breadcrumb-item active" aria-current="page">Shipping</li>
-                                        <li className="breadcrumb-item active" aria-current="page">Payment</li>
+                                        <li className="breadcrumb-item" aria-current="page">Shipping</li>
+                                        <li className="breadcrumb-item" aria-current="page">Payment</li>
                                     </ol>
                                 </nav>
                                 <h4 className="title">Contact Information</h4>
