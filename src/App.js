@@ -11,6 +11,7 @@ import CompareProduct from './pages/CompareProduct';
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login'
 import Cart from './pages/Cart'
+import Checkout from './pages/Checkout';
 import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
@@ -44,6 +45,7 @@ function App() {
           <Route path='refund-policy' element={<RefundPolicy />} />
           <Route path='shipping-policy' element={<ShippingPolicy />} />
           <Route path='terms-and-condition' element={<TermsAndCondition />} />
+          <Route path='checkout' element={<Checkout />} />
         </Route>
       </Routes>
     </BrowserRouter>
