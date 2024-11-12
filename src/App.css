@@ -1106,4 +1106,40 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 
+.breadcrumb-nav {
+  --bs-breadcrumb-divider: ">";
+}
+
+.back-cart {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
+.order-detail h5 {
+  font-size: 16px;
+  color: var(--color-777777);
+  font-weight: 400;
+}
+
+.order-detail h6 {
+  font-size: 16px;
+  color: var(--color-1c1b1b);
+}
+
+.order-detail h3 {
+  font-size: 18px;
+  color: var(--color-1c1b1b);
+}
+
+.order-detail h4 {
+  font-size: 24px;
+  color: var(--color-1c1b1b);
+}
+
+.border-vertical {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  height: auto;
+}
+
 /* Main Product Page CSS End */
