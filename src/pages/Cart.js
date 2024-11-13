@@ -3,6 +3,7 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import { MdDelete } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import headphones from '../images/headphone.jpg'
 
 const Cart = () => {
     return (
@@ -22,7 +23,7 @@ const Cart = () => {
                             <div className="cart-data py-5 d-flex justify-content-between align-items-center border-bottom">
                                 <div className="col-6 gap-20 d-flex align-items-center">
                                     <div className='w-20'>
-                                        <img src="images/headphone.jpg" alt="headphone" className='img-fluid' style={{ width: "80px", height: "80px" }} />
+                                        <img src={headphones} alt="headphone" className='img-fluid' style={{ width: "80px", height: "80px" }} />
                                     </div>
                                     <div className='w-80'>
                                         <h5 className="title">Kids headphones bulk 10 pack multicolored for students</h5>
@@ -48,7 +49,7 @@ const Cart = () => {
                         </div>
                         <div className="col-12 py-4">
                             <div className="d-flex justify-content-between align-items-baseline">
-                                <Link to='/store' className='button'>Continue Shopping</Link>
+                                <Link to='/product' className='button'>Continue Shopping</Link>
                                 <div className='d-flex flex-column align-items-end subtotal'>
                                     <h4>Sub Total: $ 100.00</h4>
                                     <p>Taxes and shipping calculated at checkout</p>

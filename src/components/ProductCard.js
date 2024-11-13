@@ -1,19 +1,25 @@
 import React from 'react'
 import ReactStars from 'react-rating-stars-component'
 import { Link, useLocation } from 'react-router-dom'
+import wish from '../images/wish.svg'
+import prodcompare from '../images/prodcompare.svg'
+import view from '../images/view.svg'
+import addcart from '../images/add-cart.svg'
+import tab from '../images/tab.jpg'
+import tab3 from '../images/tab3.jpg'
 
 const ProductCard = ({ grid }) => {
     let location = useLocation();
     return (
         <>
-            <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to='/product-detail' className="product-card position-relative">
+            <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
+                <Link to=':id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+                        <Link><img src={wish} alt="wishlist" /></Link>
                     </div>
                     <div className="product-img">
-                        <img src="images/tab.jpg" alt="product" className='img-fluid' />
-                        <img src="images/tab3.jpg" alt="product" className='img-fluid' />
+                        <img src={tab} alt="product" className='img-fluid' />
+                        <img src={tab3} alt="product" className='img-fluid' />
                     </div>
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
@@ -33,21 +39,21 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src="images/prodcompare.svg" alt="Compare " /></Link>
-                            <Link><img src="images/view.svg" alt="View " /></Link>
-                            <Link><img src="images/add-cart.svg" alt="addCart " /></Link>
+                            <Link><img src={prodcompare} alt="Compare " /></Link>
+                            <Link><img src={view} alt="View " /></Link>
+                            <Link><img src={addcart} alt="addCart " /></Link>
                         </div>
                     </div>
                 </Link>
             </div>
-            <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to='/product-detail' className="product-card position-relative">
+            <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
+                <Link to=':id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+                        <Link><img src={wish} alt="wishlist" /></Link>
                     </div>
                     <div className="product-img">
-                        <img src="images/tab.jpg" alt="product" className='img-fluid' />
-                        <img src="images/tab3.jpg" alt="product" className='img-fluid' />
+                        <img src={tab} alt="product" className='img-fluid' />
+                        <img src={tab3} alt="product" className='img-fluid' />
                     </div>
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
@@ -67,21 +73,21 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src="images/prodcompare.svg" alt="Compare " /></Link>
-                            <Link><img src="images/view.svg" alt="View " /></Link>
-                            <Link><img src="images/add-cart.svg" alt="addCart " /></Link>
+                            <Link><img src={prodcompare} alt="Compare " /></Link>
+                            <Link><img src={view} alt="View " /></Link>
+                            <Link><img src={addcart} alt="addCart " /></Link>
                         </div>
                     </div>
                 </Link>
             </div>
-            <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to='/product-detail' className="product-card position-relative">
+            <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
+                <Link to=':id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+                        <Link><img src={wish} alt="wishlist" /></Link>
                     </div>
                     <div className="product-img">
-                        <img src="images/tab.jpg" alt="product" className='img-fluid' />
-                        <img src="images/tab3.jpg" alt="product" className='img-fluid' />
+                        <img src={tab} alt="product" className='img-fluid' />
+                        <img src={tab3} alt="product" className='img-fluid' />
                     </div>
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
@@ -101,21 +107,21 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src="images/prodcompare.svg" alt="Compare " /></Link>
-                            <Link><img src="images/view.svg" alt="View " /></Link>
-                            <Link><img src="images/add-cart.svg" alt="addCart " /></Link>
+                            <Link><img src={prodcompare} alt="Compare " /></Link>
+                            <Link><img src={view} alt="View " /></Link>
+                            <Link><img src={addcart} alt="addCart " /></Link>
                         </div>
                     </div>
                 </Link>
             </div>
-            <div className={`${location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to='/product-detail' className="product-card position-relative">
+            <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
+                <Link to=':id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+                        <Link><img src={wish} alt="wishlist" /></Link>
                     </div>
                     <div className="product-img">
-                        <img src="images/tab.jpg" alt="product" className='img-fluid' />
-                        <img src="images/tab3.jpg" alt="product" className='img-fluid' />
+                        <img src={tab} alt="product" className='img-fluid' />
+                        <img src={tab3} alt="product" className='img-fluid' />
                     </div>
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
@@ -135,9 +141,9 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src="images/prodcompare.svg" alt="Compare " /></Link>
-                            <Link><img src="images/view.svg" alt="View " /></Link>
-                            <Link><img src="images/add-cart.svg" alt="addCart " /></Link>
+                            <Link><img src={prodcompare} alt="Compare " /></Link>
+                            <Link><img src={view} alt="View " /></Link>
+                            <Link><img src={addcart} alt="addCart " /></Link>
                         </div>
                     </div>
                 </Link>

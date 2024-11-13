@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { HiOutlineArrowLeft } from 'react-icons/hi'
+import headphones from '../images/headphone.jpg'
 
 const checkout = () => {
     return (
@@ -73,7 +74,7 @@ const checkout = () => {
                                     <div className='w-80 d-flex gap-20'>
                                         <div className='w-20 position-relative'>
                                             <span style={{ "top": "-8px", "left": "-8px" }} className="badge bg-secondary text-white rounded-circle position-absolute">1</span>
-                                            <img className='img-fluid' src="images/headphone.jpg" alt="product" />
+                                            <img className='img-fluid' src={headphones} alt="product" />
                                         </div>
                                         <div>
                                             <h5 className="title">Kids headphones bulk 10 pack multicolored for students</h5>
