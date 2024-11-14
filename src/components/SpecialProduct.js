@@ -3,6 +3,20 @@ import ReactStars from 'react-rating-stars-component'
 import { Link } from 'react-router-dom'
 import watch from '../images/watch.jpg'
 
+// Custom wrapper component for ReactStars
+const CustomReactStars = ({ count = 5, size = 12, value = 3, edit = false, activeColor = "#ffd700", color = "#acacac" }) => {
+    return (
+        <ReactStars
+            count={count}
+            size={size}
+            value={value}
+            edit={edit}
+            activeColor={activeColor}
+            color={color}
+        />
+    );
+};
+
 const SpecialProduct = () => {
     return (
         <div className='col-6 mb-3'>
@@ -14,14 +28,8 @@ const SpecialProduct = () => {
                     <div className='special-product-content'>
                         <h5 className="brand">Apple</h5>
                         <h6 className="title">Apple Watch Series 9 – Your ultimate health...</h6>
-                        <ReactStars
-                            count={5}
-                            size={12}
-                            value="3"
-                            edit={false}
-                            activeColor="#ffd700"
-                            color="#acacac"
-                        />
+                        <CustomReactStars />
+
                         <p className="price"><span className="red-p">$100</span> &nbsp; <strike>$200</strike></p>
                         <div className="discount-till d-flex align-items-center gap-10">
                             <p className='mb-0'><b>765 </b>Days</p>
@@ -37,7 +45,7 @@ const SpecialProduct = () => {
                                 <div className="progress-bar" style={{ width: "25%" }}></div>
                             </div>
                         </div>
-                        <Link className='button'>Add to Cart</Link>
+                        <Link className='button' to='/cart'>Add to Cart</Link>
                     </div>
                 </div>
             </div>

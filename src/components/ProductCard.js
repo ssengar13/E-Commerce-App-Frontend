@@ -8,14 +8,29 @@ import addcart from '../images/add-cart.svg'
 import tab from '../images/tab.jpg'
 import tab3 from '../images/tab3.jpg'
 
+// Custom wrapper component for ReactStars
+const CustomReactStars = ({ count = 5, size = 12, value = 3, edit = false, activeColor = "#ffd700", color = "#acacac" }) => {
+    return (
+        <ReactStars
+            count={count}
+            size={size}
+            value={value}
+            edit={edit}
+            activeColor={activeColor}
+            color={color}
+        />
+    );
+};
+
+
 const ProductCard = ({ grid }) => {
     let location = useLocation();
     return (
         <>
             <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to=':id' className="product-card position-relative">
+                <Link to='/product/:id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src={wish} alt="wishlist" /></Link>
+                        <button className='border-0 bg-transparent'><img src={wish} alt="wishlist" /></button>
                     </div>
                     <div className="product-img">
                         <img src={tab} alt="product" className='img-fluid' />
@@ -24,14 +39,7 @@ const ProductCard = ({ grid }) => {
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
                         <h5 className="title">The ultimate blend of power and versatility, designed for professionals. </h5>
-                        <ReactStars
-                            count={5}
-                            size={12}
-                            value="3"
-                            edit={false}
-                            activeColor="#ffd700"
-                            color="#acacac"
-                        />
+                        <CustomReactStars />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
                         </p>
@@ -39,17 +47,17 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src={prodcompare} alt="Compare " /></Link>
-                            <Link><img src={view} alt="View " /></Link>
-                            <Link><img src={addcart} alt="addCart " /></Link>
+                            <button className='border-0 bg-transparent'><img src={prodcompare} alt="Compare " /></button>
+                            <button className='border-0 bg-transparent'><img src={view} alt="View " /></button>
+                            <button className='border-0 bg-transparent'><img src={addcart} alt="addCart " /></button>
                         </div>
                     </div>
                 </Link>
             </div>
             <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to=':id' className="product-card position-relative">
+                <Link to='/product/:id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src={wish} alt="wishlist" /></Link>
+                        <button className='border-0 bg-transparent'><img src={wish} alt="wishlist" /></button>
                     </div>
                     <div className="product-img">
                         <img src={tab} alt="product" className='img-fluid' />
@@ -58,14 +66,7 @@ const ProductCard = ({ grid }) => {
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
                         <h5 className="title">The ultimate blend of power and versatility, designed for professionals. </h5>
-                        <ReactStars
-                            count={5}
-                            size={12}
-                            value="3"
-                            edit={false}
-                            activeColor="#ffd700"
-                            color="#acacac"
-                        />
+                        <CustomReactStars />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
                         </p>
@@ -73,17 +74,17 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src={prodcompare} alt="Compare " /></Link>
-                            <Link><img src={view} alt="View " /></Link>
-                            <Link><img src={addcart} alt="addCart " /></Link>
+                            <button className='border-0 bg-transparent'><img src={prodcompare} alt="Compare " /></button>
+                            <button className='border-0 bg-transparent'><img src={view} alt="View " /></button>
+                            <button className='border-0 bg-transparent'><img src={addcart} alt="addCart " /></button>
                         </div>
                     </div>
                 </Link>
             </div>
             <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to=':id' className="product-card position-relative">
+                <Link to='/product/:id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src={wish} alt="wishlist" /></Link>
+                        <button className='border-0 bg-transparent'><img src={wish} alt="wishlist" /></button>
                     </div>
                     <div className="product-img">
                         <img src={tab} alt="product" className='img-fluid' />
@@ -92,14 +93,7 @@ const ProductCard = ({ grid }) => {
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
                         <h5 className="title">The ultimate blend of power and versatility, designed for professionals. </h5>
-                        <ReactStars
-                            count={5}
-                            size={12}
-                            value="3"
-                            edit={false}
-                            activeColor="#ffd700"
-                            color="#acacac"
-                        />
+                        <CustomReactStars />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
                         </p>
@@ -107,17 +101,17 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src={prodcompare} alt="Compare " /></Link>
-                            <Link><img src={view} alt="View " /></Link>
-                            <Link><img src={addcart} alt="addCart " /></Link>
+                            <button className='border-0 bg-transparent'><img src={prodcompare} alt="Compare " /></button>
+                            <button className='border-0 bg-transparent'><img src={view} alt="View " /></button>
+                            <button className='border-0 bg-transparent'><img src={addcart} alt="addCart " /></button>
                         </div>
                     </div>
                 </Link>
             </div>
             <div className={`${location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-3"}`}>
-                <Link to=':id' className="product-card position-relative">
+                <Link to='/product/:id' className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
-                        <Link><img src={wish} alt="wishlist" /></Link>
+                        <button className='border-0 bg-transparent'><img src={wish} alt="wishlist" /></button>
                     </div>
                     <div className="product-img">
                         <img src={tab} alt="product" className='img-fluid' />
@@ -126,14 +120,7 @@ const ProductCard = ({ grid }) => {
                     <div className="product-details">
                         <h6 className="brand">Apple iPad Pro</h6>
                         <h5 className="title">The ultimate blend of power and versatility, designed for professionals. </h5>
-                        <ReactStars
-                            count={5}
-                            size={12}
-                            value="3"
-                            edit={false}
-                            activeColor="#ffd700"
-                            color="#acacac"
-                        />
+                        <CustomReactStars />
                         <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil hic minima officiis soluta qui laudantium minus alias veniam dignissimos dolorem eligendi sapiente repudiandae, consectetur, asperiores suscipit vitae quo ducimus laborum?
                         </p>
@@ -141,9 +128,9 @@ const ProductCard = ({ grid }) => {
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
-                            <Link><img src={prodcompare} alt="Compare " /></Link>
-                            <Link><img src={view} alt="View " /></Link>
-                            <Link><img src={addcart} alt="addCart " /></Link>
+                            <button className='border-0 bg-transparent'><img src={prodcompare} alt="Compare " /></button>
+                            <button className='border-0 bg-transparent'><img src={view} alt="View " /></button>
+                            <button className='border-0 bg-transparent'><img src={addcart} alt="addCart " /></button>
                         </div>
                     </div>
                 </Link>
